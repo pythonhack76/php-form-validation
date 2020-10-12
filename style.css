@@ -1,0 +1,28 @@
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+form {
+  border: 1px solid #1a33ff;
+  background: #ecf5fc;
+  padding: 40px 50px 45px;
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+.error {
+  color: red;
+  font-weight: 400;
+  display: block;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.form-control.error {
+  border-color: red;
+  padding: 0.375rem 0.75rem;
+}
