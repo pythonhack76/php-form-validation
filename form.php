@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- SST - Luca Rulvoni -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Form </title>
+    <title>Template form Php </title>
 </head>
 
 <body>
-    <form action="" method="post">
+    <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="form-group row">
             <label class="col-sm-4 col-form-label">Nome</label>
             <div class="col-sm-8">
